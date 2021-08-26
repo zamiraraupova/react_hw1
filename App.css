@@ -1,0 +1,71 @@
+#app{
+  background-color: rgb(241, 241, 241);
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-around;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.dashboard {
+  height: 80vh;
+  width: 20vw;
+  background-color: rgb(215, 215, 215);
+  font-family: 'Courier New', Courier, monospace;
+  font-size:2mm;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+
+.info {
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size:2mm;
+  margin-top: 5vh;
+}
+.reviews{
+  background-color: rgb(215, 215, 215);
+  height: 30vh;
+  width: 20vw;
+  
+
+}
+
+.rating{
+  background-color: rgb(215, 215, 215);
+  height: 30vh;
+  width: 20vw;
+  
+}
+
+.analysis{
+  background-color: rgb(215, 215, 215);
+  height: 30vh;
+  width: 20vw;
+  text-align: center;
+  
+}
+
+.visitors {
+  height: 44vh;
+  width: 70vw;
+  background-color: rgb(215, 215, 215);
+  font-family: 'Courier New', Courier, monospace;
+  font-size:2mm;
+  display:flex;
+  position: absolute;
+  top: 320px;
+  left: 357px;
+
+}
+.box{
+  height: 30vh;
+  width: 55vw;
+  background-color: grey;
+  margin-top: 80px;
+}
